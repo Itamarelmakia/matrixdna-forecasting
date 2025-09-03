@@ -1,0 +1,11 @@
+paths:
+  raw_dir: "data/raw"
+  processed_xlsx: "data/processed/matrixdna_cleaned_data.xlsx"
+  eda_out: "reports/eda"
+  forecast_out: "reports/forecast"
+
+modeling:
+  test_h: 6
+  future_h: 6
+  what_if_orders_mult: 1.10
+  what_if_aov_mult: 1.10
