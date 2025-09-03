@@ -1,0 +1,77 @@
+{
+  "acf_head": [
+    1.0,
+    0.383,
+    0.006,
+    0.043,
+    0.035,
+    0.097,
+    0.035,
+    0.004,
+    -0.143,
+    -0.231,
+    0.002,
+    0.185,
+    0.18
+  ],
+  "basket_value_spearman": {
+    "rho": 0.511,
+    "pvalue": 0.0,
+    "p90_cutoff": 12
+  },
+  "items_revenue_corr": {
+    "Online": {
+      "spearman_rho": 0.627,
+      "pvalue": 0.0,
+      "n": 1010
+    },
+    "Store": {
+      "spearman_rho": 0.495,
+      "pvalue": 0.0,
+      "n": 7288
+    },
+    "ALL": {
+      "spearman_rho": 0.521,
+      "pvalue": 0.0,
+      "n": 8298
+    }
+  },
+  "items_revenue_corr_poly2": {
+    "Online": {
+      "spearman_rho": 0.627,
+      "pvalue": 0.0,
+      "n": 1010
+    },
+    "Store": {
+      "spearman_rho": 0.495,
+      "pvalue": 0.0,
+      "n": 7288
+    },
+    "ALL": {
+      "spearman_rho": 0.521,
+      "pvalue": 0.0,
+      "n": 8298
+    }
+  },
+  "tests": {
+    "aov_online_vs_store": {
+      "t_test": {
+        "stat": 9.522958166106855,
+        "pvalue": 1.0606271903265863e-20
+      },
+      "mann_whitney": {
+        "stat": 4623619.0,
+        "pvalue": 1.3676000116664454e-37
+      }
+    },
+    "month_effect_revenue_kruskal": {
+      "stat": 204.3220015910509,
+      "pvalue": 9.426073152846563e-38
+    },
+    "adf_monthly_revenue": {
+      "adf_stat": -3.567418030409197,
+      "pvalue": 0.006415360944532296,
+      "nobs": 29
+    }
+  }
+}

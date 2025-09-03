@@ -1,0 +1,4 @@
+Model,MAE,MAPE
+FS AdaBoost (Top-10) — forecasted feats,19635.694343963347,0.317420715695304
+FS ExtraTrees (Top-10) — forecasted feats,18278.78648025994,0.2999587066862463
+FS Upper-Bound (Top-10 avg) — true feats,9544.778063567981,0.1833201022752774
